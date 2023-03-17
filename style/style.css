@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #00b0c8;
+    /* background-image: url(../assets/Galaxy-Body.jpg); */
+    font-family: 'Trispace', sans-serif;
+    font-size: larger;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+
+
+/* HEADER */
+header {
+    background-color:#937882;
+    background-image: url(../assets/galaxiagreen.jpg);
+    border-bottom: 2px solid greenyellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.imagen1{
+    width: 200px;
+}
+
+.imagen2{
+    width: 500px;
+}
+.imagen3{
+    width: 110px;
+}
+
+
+
+
+/* MAIN */
+main{
+    padding: 20px;
+    background-image: url(../assets/Galaxy-Body.jpg);
+}
+
+/* Sinopsis | Personajes | Serie */
+main nav {
+    width: 120vh;
+    color: #fffff0;
+    background-color: darksalmon;
+    background-image: url(../assets/Galaxy-black.png);
+    padding: 20px;
+    margin: auto;
+    border-radius: 15px;
+    border: 4px solid darkgreen;
+}
+.link {
+    color: #1eff00; 
+    text-decoration: none;
+}
+
+
+/* Introducción */
+main nav ul{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+}
+
+main h2{
+    background: url(../assets/galaxiagreen.jpg);
+    color: greenyellow;
+    margin: 30px 0 0 0;
+    padding: 10px;
+    border: 3px solid green;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Párrafo de la Introducción */
+.paragraph-uno{
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    font-weight: 700;
+}
+
+/* Sección Imagen + Texto */
+.text-img{
+    width: 90%;
+    padding: 40px;
+    margin: 50px auto;
+    border: 4px solid greenyellow;
+    border-radius: 30px;
+    background-image: url(../assets/galaxiagreen.jpg);
+    display: flex;
+}
+
+main div article{
+    padding: 30px;
+}
+main div article h3{
+    font-size: 30px;
+    padding: 10px;
+    color: #1eff00;
+}
+
+main div article p {
+    padding: 10px;
+    color: white;
+}
+
+/* Imagen del recuadro */
+.img1{
+    width: 180px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+/*FOOTER */
+footer {
+    background-color: black;
+    width: 100%;
+    background-image: url(../assets/Galaxy-black.png);
+    color: #26ee9e;
+    font-family: 'Trispace', sans-serif;
+    position: relative;
+    border-top: 3px solid greenyellow;
+}
+
+footer section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: larger;
+}
+
+
+.logo {
+    font-size: 10px;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.arrow-icon{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+
+span { 
+    color: greenyellow;
+} 
+
