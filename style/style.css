@@ -46,7 +46,8 @@ header {
 /* MAIN */
 main {
     padding: 20px;
-    background-color: chartreuse;
+    /* background-image: url(""); */
+    background-color: black;
 }
 
 /* Sinopsis | Personajes | Serie */
@@ -137,7 +138,7 @@ main div article p {
 }
 
 .item-grid {
-    width: 220px;
+    width: 230px;
     /* background-color: yellow; */
     background-image: url(../assets/Galaxy-Body.jpg);
     padding: 10px;
@@ -197,4 +198,171 @@ ul {
 
 span {
     color: greenyellow;
+}
+
+@media (max-width: 480px) {
+    header {
+        background-color: #937882;
+        background-image: url(../assets/galaxiagreen.jpg);
+        border-bottom: 2px solid greenyellow;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .imagen1 {
+        width: 100px;
+    }
+    
+    .imagen2 {
+        width: 220px;
+    }
+    
+    .imagen3 {
+        width: 55px;
+    }
+  
+
+    main {
+        padding: 20px;
+        background-color: springgreen;
+    }
+    
+    /* Sinopsis | Personajes | Serie */
+    main nav {
+        width: 60vh;
+        color: #fffff0;
+        background-image: url(../assets/Galaxy-black.png);
+        margin: auto;
+        padding: 8px;
+        border-radius: 15px;
+        border: 3px solid darkgreen;
+    }
+    .link {
+        color: #1eff00;
+        text-decoration: none;
+    }
+    /* Introducción */
+    main nav ul {
+        display: flex;
+        justify-content: space-around;
+        font-weight: 500;
+    }
+    
+
+    .title-separation {
+        background: url(../assets/galaxiagreen.jpg);
+        color: greenyellow;
+        margin: 20px 0 0 0;
+        padding: 5px;
+        border: 2px solid green;
+        border-radius: 10px;
+        text-align: center;
+        width: 100%;
+        font-size:larger;
+    }
+
+    /* Párrafo de la Introducción */
+    .paragraph-uno {
+        color: black;
+        padding: 10px;
+        margin: 20px;
+        font-weight: 700;
+        text-align:justify;
+        font-size: 15px;
+    }
+    
+    /* Sección Imagen + Texto */
+    .text-img {
+        width: 100%;
+        margin: 20px auto;
+        padding: 10px;
+        border: 4px solid green;
+        border-radius: 30px;
+        background-image: url(../assets/galaxiagreen.jpg);
+        display: flex;
+    }
+    
+    main div article {
+        padding: 0 30px;
+
+    }
+    
+    main div article h3 {
+        font-size: 20px;
+        padding: 10px;
+        color: #1eff00;
+    }
+    
+    main div article p {
+        padding: 0 0 0 10px;
+        color: white;
+        font-size: 14px;
+        text-align: justify;
+    }
+    
+    .img1 {
+        width: 100px;
+        align-content: center;
+        border-radius: 10px;
+    }
+    
+
+    #container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding: 10px;
+    }
+    .item-grid {
+        width: 180px;
+        background-image: url(../assets/Galaxy-Body.jpg);
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+        border: 4px solid greenyellow;
+        color: greenyellow;
+        font-size: 13px;
+    }
+    .item-grid img {
+        width: 70%;
+        border-radius: 50%;
+    }
+    
+
+    footer {
+        background-color: black;
+        width: 100%;
+        background-image: url(../assets/Galaxy-black.png);
+        color: #26ee9e;
+        font-family: 'Trispace', sans-serif;
+        position: relative;
+        border-top: 3px solid greenyellow;
+    }
+    footer section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 14px;
+        padding-left: 20px;
+    }
+    .logo {
+        font-size: 10px;
+        text-decoration: none;
+        padding: 0 10px;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+    }
+    .arrow-icon {
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        width: 35px;
+        height: 35px;
+    }
 }
