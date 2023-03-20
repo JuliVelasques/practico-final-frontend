@@ -6,7 +6,6 @@
 
 body {
     background-color: #00b0c8;
-    /* background-image: url(../assets/Galaxy-Body.jpg); */
     font-family: 'Trispace', sans-serif;
     font-size: larger;
     display: grid;
@@ -45,36 +44,31 @@ header {
 
 /* MAIN */
 main {
-    padding: 20px;
-    /* background-image: url(""); */
-    background-color: black;
+    padding: 30px;
+    background-image: url(../assets/foto-del-espacio.png);
 }
-
 /* Sinopsis | Personajes | Serie */
 main nav {
-    width: 120vh;
+    width: 100vh;
     color: #fffff0;
     background-color: darksalmon;
-    background-image: url(../assets/Galaxy-black.png);
-    padding: 20px;
+    background-image: url(../assets/imagen-sinopsis-personajes-serie.png);
+    padding: 15px;
     margin: auto;
     border-radius: 15px;
     border: 4px solid darkgreen;
 }
-
 .link {
     color: #1eff00;
     text-decoration: none;
 }
-
-
 /* Introducción */
 main nav ul {
     display: flex;
     justify-content: space-around;
-    font-weight: 700;
+    font-weight: 900;
+    font-size: medium;
 }
-
 .title-separation {
     background: url(../assets/galaxiagreen.jpg);
     color: greenyellow;
@@ -85,15 +79,14 @@ main nav ul {
     text-align: center;
     width: 100%;
 }
-
 /* Párrafo de la Introducción */
 .paragraph-uno {
     color: white;
     padding: 10px;
-    margin: 20px;
-    font-weight: 700;
+    margin: 10px;
+    font-weight: 530;
+    text-align: justify;
 }
-
 /* Sección Imagen + Texto */
 .text-img {
     width: 90%;
@@ -103,30 +96,25 @@ main nav ul {
     border-radius: 30px;
     background-image: url(../assets/galaxiagreen.jpg);
     display: flex;
+    text-align: justify;
 }
-
 main div article {
     padding: 30px;
 }
-
 main div article h3 {
     font-size: 30px;
     padding: 10px;
     color: #1eff00;
 }
-
 main div article p {
     padding: 10px;
     color: white;
 }
-
 /* Imagen del recuadro */
 .img1 {
     width: 180px;
     border-radius: 10px;
 }
-
-
 #container {
     /* min-height: 100vh; */
     /* background-color: violet; */
@@ -134,34 +122,46 @@ main div article p {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    padding: 10px;
+    padding: 20px;
 }
-
 .item-grid {
-    width: 230px;
-    /* background-color: yellow; */
+    width: 210px;
+    background-color: cadetblue;
     background-image: url(../assets/Galaxy-Body.jpg);
-    padding: 10px;
+    padding: 15px;
     text-align: center;
     border-radius: 10px;
-    border: 4px solid blue;
+    border: 4px solid greenyellow;
     color: greenyellow;
+    font-size: 18px;
 }
-
 .item-grid img {
-    width: 100%;
+    width: 70%;
     border-radius: 50%;
 }
-
-
-
+.section-serie{
+    display: flex;
+    margin: 20px auto;
+    width: 80%;
+    color: white;
+    align-items: center;
+}
+.logo-HBO{
+    width: 150px;
+}
+main .section-serie p{
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
 
 
 /*FOOTER */
 footer {
     background-color: black;
     width: 100%;
-    background-image: url(../assets/Galaxy-black.png);
+    padding: 15px;
+    background-image: url(../assets/fondo-3d-del-espacio.jpg);
     color: #26ee9e;
     font-family: 'Trispace', sans-serif;
     position: relative;
@@ -180,6 +180,10 @@ footer section {
     font-size: 10px;
     text-decoration: none;
     padding: 0 10px;
+}
+
+.footer-icon{
+    width: 55px;
 }
 
 ul {
@@ -266,7 +270,7 @@ span {
 
     /* Párrafo de la Introducción */
     .paragraph-uno {
-        color: black;
+        color: white;
         padding: 10px;
         margin: 20px;
         font-weight: 700;
@@ -353,6 +357,9 @@ span {
         font-size: 10px;
         text-decoration: none;
         padding: 0 10px;
+    }
+    .footer-icon{
+        width: 40px;
     }
     ul {
         list-style: none;
