@@ -43,15 +43,14 @@ header {
 /* MAIN */
 main {
     padding: 30px;
-    /* background-image: url(../assets/foto-del-espacio.png); */
-    background-image: url(https://c.wallhere.com/photos/8a/54/space_nebula_blue_violet_white_space_art_space_clouds_digital_art-33526.jpg!d);
+    background-image: url(https://img1.wallspic.com/attachments/originals/6/5/7/5/3/135756-constelacion-negro-galaxia-objeto_astronomico-evento_celestial-3840x2160.jpg);
 }
 /* Sinopsis | Personajes | Serie */
 main nav {
     width: 100vh;
     color: #fffff0;
     background-color: darksalmon;
-    background-image: url(../assets/Galaxy-black.png);
+    background-image: url(https://cdn.pixabay.com/photo/2020/03/30/13/29/space-4984262_1280.jpg);
     padding: 15px;
     margin: auto;
     border-radius: 15px;
@@ -70,11 +69,11 @@ main nav ul {
 }
 .title-separation {
     background: url(../assets/galaxiagreen.jpg);
-    color: greenyellow;
-    margin: 30px 0 0 0;
+    color: #1eff00;
+    margin: 50px 0 0 0;
     padding: 10px;
     border: 3px solid green;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
     text-align: center;
     width: 100%;
 }
@@ -117,7 +116,7 @@ main div article p {
 
 .title-separation-one{
     background: url(../assets/galaxiagreen.jpg);
-    color: greenyellow;
+    color: #1eff00;
     margin: 30px 0 0 0;
     padding: 10px;
     border: 3px solid green;
@@ -127,11 +126,9 @@ main div article p {
 }
 
 #container {
-    /* min-height: 100vh; */
-    /* background-color: violet; */
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
     padding: 20px;
 }
@@ -159,6 +156,7 @@ main div article p {
 }
 .logo-HBO{
     width: 150px;
+    border-radius: 10px;
 }
 main .section-serie p{
     padding: 30px;
@@ -178,30 +176,24 @@ footer {
     position: relative;
     border-top: 3px solid greenyellow;
 }
-
 footer section {
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: larger;
 }
-
-
 .logo {
     font-size: 10px;
     text-decoration: none;
     padding: 0 10px;
 }
-
 .footer-icon{
     width: 55px;
 }
-
 ul {
     list-style: none;
     display: flex;
 }
-
 .arrow-icon {
     position: fixed;
     right: 10px;
@@ -209,10 +201,8 @@ ul {
     width: 50px;
     height: 50px;
 }
-
-
 span {
-    color: greenyellow;
+    color: #1eff00;
 }
 
 @media (max-width: 480px) {
