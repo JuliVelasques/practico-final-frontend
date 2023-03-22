@@ -40,19 +40,18 @@ header {
 }
 
 
-
-
 /* MAIN */
 main {
     padding: 30px;
-    background-image: url(../assets/foto-del-espacio.png);
+    /* background-image: url(../assets/foto-del-espacio.png); */
+    background-image: url(https://c.wallhere.com/photos/8a/54/space_nebula_blue_violet_white_space_art_space_clouds_digital_art-33526.jpg!d);
 }
 /* Sinopsis | Personajes | Serie */
 main nav {
     width: 100vh;
     color: #fffff0;
     background-color: darksalmon;
-    background-image: url(../assets/imagen-sinopsis-personajes-serie.png);
+    background-image: url(../assets/Galaxy-black.png);
     padding: 15px;
     margin: auto;
     border-radius: 15px;
@@ -75,16 +74,16 @@ main nav ul {
     margin: 30px 0 0 0;
     padding: 10px;
     border: 3px solid green;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     text-align: center;
     width: 100%;
 }
 /* Párrafo de la Introducción */
-.paragraph-uno {
-    color: white;
-    padding: 10px;
+.paragraph-one {
+    color:white;
     margin: 10px;
-    font-weight: 530;
+    padding: 10px;
+    font-weight: 600;
     text-align: justify;
 }
 /* Sección Imagen + Texto */
@@ -115,6 +114,18 @@ main div article p {
     width: 180px;
     border-radius: 10px;
 }
+
+.title-separation-one{
+    background: url(../assets/galaxiagreen.jpg);
+    color: greenyellow;
+    margin: 30px 0 0 0;
+    padding: 10px;
+    border: 3px solid green;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+}
+
 #container {
     /* min-height: 100vh; */
     /* background-color: violet; */
@@ -227,14 +238,10 @@ span {
     .imagen3 {
         width: 55px;
     }
-  
-
     main {
         padding: 20px;
         background-color: springgreen;
     }
-    
-    /* Sinopsis | Personajes | Serie */
     main nav {
         width: 60vh;
         color: #fffff0;
@@ -248,14 +255,11 @@ span {
         color: #1eff00;
         text-decoration: none;
     }
-    /* Introducción */
     main nav ul {
         display: flex;
         justify-content: space-around;
         font-weight: 500;
     }
-    
-
     .title-separation {
         background: url(../assets/galaxiagreen.jpg);
         color: greenyellow;
