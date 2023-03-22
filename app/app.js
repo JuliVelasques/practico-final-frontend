@@ -1,8 +1,6 @@
 const API_BASE = "https://rickandmortyapi.com/api";
 const API_CHARACTERS = "https://rickandmortyapi.com/api/character";
-
 const llamadaAApi = fetch(API_CHARACTERS);
-
 llamadaAApi
   .then((data) => {
     return data.json();
